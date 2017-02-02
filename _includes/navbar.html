@@ -1,0 +1,55 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        {% for category in site.data.categories %}
+          {% assign slug = category[0] %}
+          {% assign category_data = category[1] %}
+
+          <li class="{% if page.tag == slug %}active{% endif %}">
+            <a href="{{ site.baseurl }}/{{ slug }}/">
+              {{ category_data.nav-name }}
+            </a>
+          </li>
+        {% endfor %}
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Static Pages <span class="caret"></span></a>
+
+          <ul class="dropdown-menu">
+            {% for page in site.html_pages %}
+              {% if page.static-page %}
+                <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+
+            <!-- <li role="separator" class="divider"></li> -->
+          </ul>
+        </li>
+      </ul>
+
+      <form action="{{ site.baseurl }}/search/" method="get" class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" id="search-box" class="form-control" name="query" placeholder="Query...">
+        </div>
+
+        <button type="submit" class="btn btn-default">Search</button>
+      </form>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

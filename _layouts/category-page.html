@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+
+<div class="container">
+  {% assign category = site.data.categories[page.tag] %}
+
+  <div class="page-header">
+    <h1 class="page-title">{{ category.title }}</h1>
+  </div>
+
+  {% capture desc %}{{ category.description }}{% endcapture %}
+  {{ desc | markdownify }}
+
+  <hr/>
+
+  <div class="top-spacing">
+    <ul class="standard-ul">
+      {% for post in site.posts %}
+        {% if post.categories contains page.tag %}
+        <li>
+          <h3>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+          <p class="category-description">{{ post.description }}</p>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
