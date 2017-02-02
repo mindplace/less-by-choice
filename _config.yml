@@ -2,27 +2,23 @@
 permalink:        pretty
 
 # Your site's full URL, e.g. "https://my-site.com"
-url: "http://estherleytush.com"
+url: "http://less-by-choice.com"
 
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
 baseurl:          ''
 
 # Site settings
-title: Your Title Here
-description: > # this means to ignore newlines until "baseurl:"
-  Your site description here.
+title: less by choice
+description: "I've been choosing minimalism for freedom and clarity. Join the conversation."
 
 author:
   name:    'Esther'
-  twitter: mindpl_ace
-  github:  mindplace
 
   # This photo will be used in the about section
   photo:   http://estherleytush.com/assets/images/headshot.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:          |
-    Your author description here.
+  about:  "I'm a career switcher and I'm working on paying down a huge amount of debt. I've chosen minimalism because I discovered kinship with simple living, and clearing away stuff in order to give more space for what matters."
 
 # Build settings
 markdown: kramdown
