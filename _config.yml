@@ -2,7 +2,7 @@
 permalink:        pretty
 
 # Your site's full URL, e.g. "https://my-site.com"
-url: "http://estherleytush.com/"
+url: "http://estherleytush.com"
 
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
 baseurl:          ''
