@@ -1,7 +1,30 @@
 ---
-layout: default
+layout:
 permalink: /
+tag: index
+title: less by choice
 ---
 
-<div id="index-page">
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="index-page">
+  {% include navbar.html %}
+
+  <div class="container">
+    <div id="main-index-content">
+      <div class="index-header">
+        <h1>less by choice</h1>
+      </div>
+
+    </div>
+
+  </div>
+
+  {% include footer.html %}
+
+  {% include javascript.html %}
+</body>
+</html>

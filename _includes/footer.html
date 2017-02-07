@@ -1,5 +1,21 @@
 <footer class="footer">
   <div class="container">
-    <p class="text-muted">Place sticky footer content here.</p>
+    <div class="footer-container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <p>Place sticky footer content here.</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <form action="{{ site.baseurl }}/search/" method="get" class="footer-search-form">
+            <div class="form-group">
+              <input type="text" id="search-box" class="form-control" name="query" placeholder="Something in particular...">
+            </div>
+
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>

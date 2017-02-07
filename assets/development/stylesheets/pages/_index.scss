@@ -1,0 +1,28 @@
+/**
+ * Index page styles
+ */
+
+#index-page {
+  background-image: url(/assets/production/images/fog.jpg);
+  background-size: cover;
+  background-position: top;
+
+  #main-index-content {
+
+    .index-header {
+      margin: 40vh auto 60vh;
+
+      h1 {
+        font-size: 60px;
+        text-align: center;
+        letter-spacing: 7px;
+        color: $grey-color;
+        font-family: 'Hind', sans-serif;
+      }
+    }
+  }
+
+  footer {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
