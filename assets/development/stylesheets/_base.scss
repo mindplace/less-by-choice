@@ -20,6 +20,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    font-family: $base-font-family;
 }
 
 main {
@@ -27,8 +28,17 @@ main {
 }
 
 /**
+ * Font family 
+ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+}
+
+/**
  * Set `margin-bottom` to maintain vertical rhythm
  */
+
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
