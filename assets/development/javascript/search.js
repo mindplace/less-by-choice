@@ -8,13 +8,13 @@ $(document).ready(function() {
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<div class="post-box"><h2 class="header small-header item-header"><a href="' + item.url + '">' + item.title + '</a></h2>';
-        appendString += '<p class="item-description">' + item.content.substring(0, 150) + '...</p></div>';
+        appendString += '<div class="search-box"><h2 class="header small-header item-header"><a href="' + item.url + '">' + item.title + '</a></h2>';
+        appendString += '<p class="item-description">' + item.description + '</p></div>';
       }
-
       $(searchResults).html(appendString);
+      
     } else {
-      $(searchResults).html('<div class="post-box">No results found</div>');
+      $(searchResults).html('<div class="search-box">No results found.</div>');
     }
   };
 
@@ -43,6 +43,7 @@ $(document).ready(function() {
       this.field('title', { boost: 10 });
       this.field('category');
       this.field('content');
+      this.field('description');
     });
 
     for (var key in window.store) { // Add the data to lunr
@@ -50,6 +51,7 @@ $(document).ready(function() {
         'id': key,
         'title': window.store[key].title,
         'category': window.store[key].category,
+        'description': window.store[key].description,
         'content': window.store[key].content
       });
 

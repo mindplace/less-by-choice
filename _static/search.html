@@ -15,6 +15,7 @@ permalink: /search/
         "title": "{{ post.title | xml_escape }}",
         "category": "{{ post.categories[0] | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+        "description": {{ post.description | strip_html | strip_newlines | jsonify }},
         "url": "{{ post.url | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
