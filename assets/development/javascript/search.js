@@ -8,13 +8,13 @@ $(document).ready(function() {
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+        appendString += '<div class="post-box"><h2 class="header small-header item-header"><a href="' + item.url + '">' + item.title + '</a></h2>';
+        appendString += '<p class="item-description">' + item.content.substring(0, 150) + '...</p></div>';
       }
 
       $(searchResults).html(appendString);
     } else {
-      $(searchResults).html('<li>No results found</li>');
+      $(searchResults).html('<div class="post-box">No results found</div>');
     }
   };
 

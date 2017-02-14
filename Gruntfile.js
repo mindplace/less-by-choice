@@ -32,9 +32,10 @@ module.exports = function(grunt) {
     watch: {
       css: {
         files: [
-          'assets/development/stylesheets/*.scss', 'assets/development/stylesheets/sections/*.scss', 'assets/development/stylesheets/pages/*.scss'
+          'assets/development/stylesheets/*.scss', 'assets/development/stylesheets/components/*.scss', 'assets/development/stylesheets/pages/*.scss',
+          'assets/development/javascript/*'
         ],
-        tasks: ['sass', 'cssmin']
+        tasks: ['sass', 'cssmin', 'uglify']
       }
     },
 

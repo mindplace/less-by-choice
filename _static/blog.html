@@ -1,31 +1,56 @@
 ---
-layout: page
+layout: default
 tag: blog
 title: blog
 static-page: true
 permalink: /blog/
 ---
 
-<div class="top-spacing" id="blog-page">
-  <ul class="standard-ul">
-    {% for post in site.posts %}
+<div class="container">
+  <div id="blog-page">
+    <div class="item-list">
+      {% for post in site.posts %}
 
-      {% unless post.next %}
-        <h3 class="dividing-month">{{ post.date | date: '%B %Y' }}</h3>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y %B' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y %B' }}{% endcapture %}
-        {% if year != nyear %}
-          <h3 class="dividing-month">{{ post.date | date: '%B %Y' }}</h3>
+        {% unless post.next %}
+          <h2 class="header medium-header dividing-month">{{ post.date | date: '%B %Y' }}</h2>
+        {% else %}
+          {% capture year %}{{ post.date | date: '%Y %B' }}{% endcapture %}
+          {% capture nyear %}{{ post.next.date | date: '%Y %B' }}{% endcapture %}
+          {% if year != nyear %}
+            <h2 class="header medium-header dividing-month">{{ post.date | date: '%B %Y' }}</h2>
+          {% endif %}
+        {% endunless %}
+
+        {% if post.tags.size > 0 %}
+          {% capture tags_content %}{% endcapture %}
+          {% for post_tag in post.tags %}
+            {% assign tag = site.data.tags[post_tag] %}
+            {% if tag %}
+              {% capture tags_content_temp %}{{ tags_content }}<a href="{{ site.baseurl }}/{{ post_tag }}/">{{ tag.name }}</a>{% if forloop.last == false %}<span>, </span>{% endif %}{% endcapture %}
+              {% assign tags_content = tags_content_temp %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign tags_content = '' %}
         {% endif %}
-      {% endunless %}
 
-      <li>
-        <h4>
-          <i><span>{{ post.date | date: '%B %d' }}</span></i> &raquo;
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h4>
-      </li>
-    {% endfor %}
-  </ul>
+        <div class="item-box">
+          <h2 class="header small-header item-header">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h2>
+
+          <p class="item-description">
+            <span class="post-date">{{ post.date | date: "%d %B" }}
+              <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
+            </span>{{ post.description }} <br>
+
+            <span class="post-date">tagged <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i></span>{{ tags_content }}</p>
+
+        </div>
+      {% endfor %}
+    </ul>
+  </div>
+
 </div>
