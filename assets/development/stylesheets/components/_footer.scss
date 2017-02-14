@@ -7,7 +7,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 110px;
+  margin-bottom: 150px;
 }
 
 .footer {
@@ -17,9 +17,9 @@ body {
   width: 100%;
 
   /* Set the fixed height of the footer here */
-  min-height: 60px;
+  height: 150px;
   background-color: white;
-  border-top: 1px solid #eee;
+  border-top: 1px solid $base-grey;
 
   .footer-column {
     margin: 20px 0;
@@ -31,14 +31,5 @@ body {
 
   .text {
     padding-top: 1.5rem;
-  }
-
-  .search-form {
-    display: flex;
-    float: right;
-
-    #search-box {
-      margin-right: 1.0rem;
-    }
   }
 }

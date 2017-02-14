@@ -1,3 +1,62 @@
 /**
  * Blog index page styles
  */
+
+#blog-page {
+  padding-bottom: 20vh;
+
+  .search-form {
+    display: flex;
+    .form-group { flex: 1; }
+    #search-box { width: 90%; }
+  }
+
+  .dividing-month {
+    margin-top: 60px;
+    padding: 10px;
+    background-color: $base-grey;
+  }
+
+  .second-col {
+    display: inline-block;
+    width: 60%;
+  }
+}
+
+.page-header {
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.item-list {
+  .item-box {
+    margin-bottom: 2.0rem;
+  }
+
+  .item-header {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.item-description {
+  a {
+    text-transform: uppercase;
+    font-size: smaller;
+  }
+}
+
+.post-date {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 1.2rem;
+  width: 120px;
+  max-width: 40%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  padding-top: 2px;
+
+  .date-caret {
+    padding: 0 1.0rem 0 0.5rem;
+  }
+}

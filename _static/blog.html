@@ -8,6 +8,14 @@ permalink: /blog/
 
 <div class="container">
   <div id="blog-page">
+    <form action="{{ site.baseurl }}/search/" method="get" class="search-form">
+      <div class="form-group">
+        <input type="text" id="search-box" class="form-control" name="query" placeholder="Search for a post...">
+      </div>
+
+      <button type="submit" class="button button-primary">Search</button>
+    </form>
+
     <div class="item-list">
       {% for post in site.posts %}
 
@@ -41,13 +49,17 @@ permalink: /blog/
             </a>
           </h2>
 
-          <p class="item-description">
-            <span class="post-date">{{ post.date | date: "%d %B" }}
+          <div class="row">
+            <div class="post-date">{{ post.date | date: "%d %B" }}
               <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
-            </span>{{ post.description }} <br>
+            </div>
+            <div class="second-col description-text">{{ post.description }}</div><br>
+          </div>
 
-            <span class="post-date">tagged <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i></span>{{ tags_content }}</p>
-
+          <div class="row">
+            <div class="post-date">tagged <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i></div>
+            <div class="second-col description-text">{{ tags_content }}</div>
+          </div>
         </div>
       {% endfor %}
     </ul>

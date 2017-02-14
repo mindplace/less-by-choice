@@ -11,22 +11,29 @@
      padding-top: 40vh; }
 
    .section-box {
+     h2 { margin-bottom: 0; }
      padding: 4.0rem;
+     margin-bottom: 10px;
      background-color: rgba(255,255,255,.8);
      border-radius: 8px; }
+
+   .less-this-more-that { margin-top: 40px; }
 
    p { margin-bottom: 5px; }
 
    .less-this, .more-this {
      font-weight: 800; }
 
-   #three-recent-posts {
-     h2 { margin-bottom: 0; }
-     padding-bottom: 30vh; }
+   #about { padding-top: 20vh; }
 
-   #main-index-header h1 {
-      letter-spacing: 10px;
-      font-weight: 100; }
+   #three-recent-posts { padding-bottom: 30vh; }
+
+   #main-index-header {
+     padding-bottom: 20vh;
+     h1 {
+       letter-spacing: 10px;
+       font-weight: 100; }
+   }
 
    .index-post-boxes-container {
      display: flex;

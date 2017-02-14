@@ -13,27 +13,25 @@ permalink: /
     <div class="index-section" id="about">
       <div class="section-box">
         <h2 class="header medium-header">clear away the unimportant.</h2>
+      </div>
 
+      <div class="section-box less-this-more-that">
         <p>Less <span class="less-this">stuff</span>, <span class="less-this">clutter</span>, <span class="less-this">goals</span> and <span class="less-this">pursuits</span>.</p>
 
         <p>More <span class="more-this">attention</span>, <span class="more-this">space</span>, and <span class="more-this">time</span> for <span class="more-this">what is most important</span>.</p>
 
-        <p><a href="/blog/">I blog about</a> <span class="more-this">minimalism</span>, <span class="more-this">clarity</span>, and <span class="more-this">the pursuit of fearless life editing</span>.</p>
+        <p>I <a href="/blog/">blog</a> about <span class="more-this">minimalism</span>, <span class="more-this">clarity</span>, and <span class="more-this">the pursuit of fearless life editing</span>.</p>
       </div>
     </div>
 
     <div class="index-section" id="three-recent-posts">
       <div class="section-box">
-        <h2 class="header medium-header">recent posts</h2>
+        <h2 class="header medium-header"><a href="/blog/">recent posts</a></h2>
       </div>
 
       <div class="index-post-boxes-container">
         {% for post in site.posts limit:2 %}
           <div class="index-post-box">
-            <div class="post-box-image">
-              <img src="/assets/production/images/{{ post.image }}">
-            </div>
-
             <div class="post-box-header">
               <h3 class="header small-header"><a href="{{ post.url }}">{{ post.title }}</a></h3>
             </div>
