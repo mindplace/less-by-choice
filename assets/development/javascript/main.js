@@ -6,14 +6,14 @@ $(document).ready(function(e){
     $("main").css("margin-top", "0");
     $("main").css("padding", "0");
 
-    $('.index-wrapper').parallax({imageSrc: '/assets/production/images/foggy-forest.jpg'});
+    $('.index-wrapper').parallax({imageSrc: '/assets/production/images/lighthouse.jpg'});
 
     $(".about-link").on("click", function(e){
       if ($(".menu-items").hasClass("visible")){
         $(".menu-items").fadeOut();
         $(".menu-items").removeClass("visible");
       }
-      
+
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
