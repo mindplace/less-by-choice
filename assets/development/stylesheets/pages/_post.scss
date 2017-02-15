@@ -8,22 +8,31 @@
     padding-bottom: 2rem;
     margin-bottom: 3rem;
 
-    .post-description {
-      p { margin-bottom: 1.0rem; }
-    }
+    .item-description {
+      display: flex;
+      justify-content: space-between;
 
-    .post-left {
-      width: 70px;
-      display: inline-block;
-      text-align: right;
-      padding-right: 10px;
-      font-size: 1.2rem;
-      font-weight: 100;
-      color: $grey-color; }
-
-      .post-tags {
-        font-size: 1.25rem; }
+      .post-description {
+        display: inline-block;
+        text-align: left;
+        width: calc(100% - 80px);
+        p { margin-bottom: 1.0rem; }
       }
+
+      .post-left {
+        width: 70px;
+        display: inline-block;
+        text-align: right;
+        vertical-align: top;
+        padding-right: 10px;
+        font-size: 1.2rem;
+        font-weight: 100;
+        color: $grey-color; }
+
+        .post-tags {
+          font-size: 1.25rem; }
+        }
+    }
 
     .comments-area { margin-top: 50px; }
 

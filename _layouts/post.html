@@ -28,13 +28,13 @@ layout: default
 
         <span class="post-description">{{ post.description }}</span>
       </div>
-      
+
       <div class="item-description">
         <span class="post-left">dated
           <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
         </span>
 
-        <span class="post-date">{{ post.date | date: "%d %B %Y" }}</span>
+        <span class="post-date post-description">{{ post.date | date: "%d %B %Y" }}</span>
       </div>
 
       <div class="item-description">
@@ -42,7 +42,7 @@ layout: default
           <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
         </span>
 
-        <span class="post-tags">{{ tags_content }}</span>
+        <span class="post-tags post-description">{{ tags_content }}</span>
       </div>
     </div>
 
