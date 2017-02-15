@@ -2,27 +2,48 @@
  * Post page styles for post content and post layout
  */
 
-.post-page-header {
-  border-bottom: 1px solid $base-grey;
-  padding-bottom: 2rem;
-  margin-bottom: 3rem;
+#post-page {
+  .post-page-header {
+    border-bottom: 1px solid $base-grey;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
 
-  .post-description {
+    .post-description {
+      p { margin-bottom: 1.0rem; }
+    }
 
-    p { margin-bottom: 1.0rem; }
-  }
+    .post-left {
+      width: 70px;
+      display: inline-block;
+      text-align: right;
+      padding-right: 10px;
+      font-size: 1.2rem;
+      font-weight: 100;
+      color: $grey-color; }
 
-  .post-left {
-    width: 70px;
-    display: inline-block;
-    text-align: right;
-    padding-right: 10px;
-    font-size: 1.2rem;
-    font-weight: 100;
-    color: $grey-color; }
+      .post-tags {
+        font-size: 1.25rem; }
+      }
 
-  .post-tags {
-    font-size: 1.25rem; }
+    .comments-area { margin-top: 50px; }
+
+    .small-header { margin-top: 50px; }
+
+    ul { padding-left: 30px; }
+
+    .takeaways {
+      text-align: center;
+      background-color: $base-grey;
+      padding: 20px;
+      margin-top: 50px;
+
+      .header {
+        margin: 0;
+        margin-bottom: 5px;
+        color: $grey-color }
+
+      p {
+        margin: 0;
+        margin-top: 10px; }
+    }
 }
-
-.comments-area { margin-top: 50px; }

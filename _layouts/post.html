@@ -16,13 +16,33 @@ layout: default
   {% assign tags_content = '' %}
 {% endif %}
 
-<div class="container">
+<div class="container" id="post-page">
   <article class="post">
     <div class="post-page-header">
       <h1 class="large-header">{{ page.title }}</h1>
 
-      <div class="post-tags">
-        tagged <span>{{ tags_content }}</span>
+      <div class="item-description">
+        <span class="post-left">about
+          <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
+        </span>
+
+        <span class="post-description">{{ post.description }}</span>
+      </div>
+      
+      <div class="item-description">
+        <span class="post-left">dated
+          <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
+        </span>
+
+        <span class="post-date">{{ post.date | date: "%d %B %Y" }}</span>
+      </div>
+
+      <div class="item-description">
+        <span class="post-left">tags
+          <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
+        </span>
+
+        <span class="post-tags">{{ tags_content }}</span>
       </div>
     </div>
 
@@ -31,16 +51,28 @@ layout: default
     </div>
   </article>
 
-  <hr>
-
-  <div class="other-posts">
-
-
+  <div class="takeaways">
+    <h2 class="header small-header">takeaways</h2>
+    {% for takeaway in post.takeaway %}
+      <p>{{ takeaway }}</p>
+    {% endfor %}
   </div>
 
-  <div>
-    <h2 class="large-header">Comments</h2>
+  <div class="comments-area">
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = "{{ site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "{{ post.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//lessbychoice.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-    <!-- Place Disqus code here -->
   </div>
 </div>

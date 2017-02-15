@@ -5,6 +5,7 @@ description: "Here's what an md file looks like with this theme."
 tags: [clutter]
 image: tiny-house.jpg
 takeaway: ["Why is it worth it for you to break up with your clutter?"]
+published: false
 ---
 
 When I think of stuff I don't need in my life anymore, most often I'm thinking actually of the things I do love, because I use it so often. Things like my computer, my bookbag and small bag, my wallet and phone. These are my daily tools, and I love using them. Other things come to mind too--my kitchen tools, my toothpaste, my goat milk soap. My window gardens and treasures. The awesome grey blanket on the couch. Ash's crate setup. My box of nail supplies.

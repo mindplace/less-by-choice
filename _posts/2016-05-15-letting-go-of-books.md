@@ -5,6 +5,7 @@ description: "Here's what an md file looks like with this theme."
 tags: [downsizing, books]
 image: tiny-house.jpg
 takeaway: ["Why is it worth it for you to break up with your clutter?"]
+published: false
 ---
 
 

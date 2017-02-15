@@ -5,6 +5,7 @@ description: "Trying to make choices, promising myself I wouldn't throw anything
 tags: [downsizing, clothes]
 image:
 takeaway: ["Is a capsule wardrobe a good idea for you?", "What boundaries would you set on your capsule wardrobe?"]
+published: false
 ---
 
 A few months ago, I read several [capsule wardrobe posts](http://www.xojane.com/clothes/project-33-capsule-wardrobe), including the original [Project 333](http://bemorewithless.com/project-333/) post, and decided to try putting together my own capsule. It was appealing to me to temporarily place boundaries on what I would wear, as if I was on a trip. I wanted to see if it would help with determining what clothes I could let go of.

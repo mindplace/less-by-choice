@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Taking stock of what's on your plate"
-description: "Clarifying what you've committed to, and rethinking that decision."
+title: "Taking stock of your plate"
+description: "Clarifying and reconsidering your big and small commitments."
 tags: [clarity]
 image:
 takeaway: ["What's on your plate?", "Is it essential?"]
+published: false
 ---
 
 What I have in my life right now that i have committed energy to:

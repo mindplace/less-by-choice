@@ -5,6 +5,7 @@ description: "Here's what an md file looks like with this theme."
 tags: [downsizing, clarity]
 image: tiny-house.jpg
 takeaway: ["Why is it worth it for you to break up with your clutter?"]
+published: false
 ---
 
 That my management style for needs and desires is to patiently wait them out, argue with them, resist them, or passively accept them in a way that doesn't bring action, until they subside. It feels safer to not have needs or desires, because the world gives less than it demands in pursuit of things I may need or desire. I feel pride knowing I can get by on less. I am not sure if I actually feel that these perspectives are healthy.

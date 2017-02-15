@@ -5,6 +5,7 @@ description: "Here's what an md file looks like with this theme."
 tags: [clarity]
 image: tiny-house.jpg
 takeaway: ["Why is it worth it for you to break up with your clutter?"]
+published: false
 ---
 
 Owning my own home - and having it be built/organized/decorated to my desired standards, where there isn't any major thing that has been left untouched because it's 'too expensive to upgrade'

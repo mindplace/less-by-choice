@@ -5,6 +5,7 @@ description: "Here's what an md file looks like with this theme."
 tags: [clarity, deliberate-choices]
 image: tiny-house.jpg
 takeaway: ["Why is it worth it for you to break up with your clutter?"]
+published: false
 ---
 
 I had a difficult, uncomfortable reaction to what KanMari was writing about letting go of books you haven't read. At first I had this sense of not being done after the major purge of 100+ books. Then I followed that thread to the realization of failure.
