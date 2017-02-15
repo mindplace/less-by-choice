@@ -21,12 +21,10 @@ permalink: /blog/
 
         {% unless post.next %}
           <h2 class="header medium-header dividing-month">{{ post.date | date: '%B %Y' }}</h2>
-          <div class="multiple-posts">
         {% else %}
           {% capture year %}{{ post.date | date: '%Y %B' }}{% endcapture %}
           {% capture nyear %}{{ post.next.date | date: '%Y %B' }}{% endcapture %}
           {% if year != nyear %}
-            </div>
             <h2 class="header medium-header dividing-month">{{ post.date | date: '%B %Y' }}</h2>
           {% endif %}
         {% endunless %}

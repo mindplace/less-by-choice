@@ -1,11 +1,31 @@
 # When creating or altering categories, remember to duplicate your changes to the tag/ folder. Each tag needs to have its own [slug].md page, specifying its layout, tag, and permalink.
 
-first-tag:
-  name: First Tag
-  title: First Tag
-  description: "This is a description for the first tag."
+books:
+  name: Books
+  title: Books
+  description: "Managing reading materials, owning books, and relating to information consumption."
 
-second-tag:
-  name: Second Tag
-  title: Second Tag
-  description: "This is a description for the second tag."
+clarity:
+  name: Clarity
+  title: Clarity
+  description: "Simplifying for a better understanding."
+
+clothes:
+  name: Clothes
+  title: Clothing
+  description: "Managing clothes, capsule wardrobes, having enough."
+
+clutter:
+  name: Clutter
+  title: Clutter
+  description: "The silent accumulation of the unimportant."
+
+deliberate-choices:
+  name: Deliberate Choices
+  title: Deliberate Choices
+  description: "Making decisions with intention."
+
+downsizing:
+  name: Downsizing
+  title: Downsizing
+  description: "Clearing away excess and unneeded things."

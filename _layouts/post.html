@@ -33,29 +33,9 @@ layout: default
 
   <hr>
 
-  <div>
-    <h2 class="large-header">Related Posts</h2>
-    <ul class="related-posts">
-      {% assign plusone = false %}
-      {% assign tag_name = page.tags[0] %}
+  <div class="other-posts">
 
-      {% for post in site.tags[tag_name] limit:4 %}
-        {% if post.url == page.url %}
-          {% assign plusone = true %}
-          {% continue %}
-        {% endif %}
 
-        {% if forloop.index < 4 or plusone == true %}
-          <li>
-            <h4>
-              <a href="{{ site.baseurl }}{{ post.url }}">
-                <span>{{ post.title }}</span>
-              </a>
-            </h4>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
   </div>
 
   <div>
