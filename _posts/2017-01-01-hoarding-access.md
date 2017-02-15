@@ -19,13 +19,13 @@ But books, that was an interesting conundrum. On one hand, access to information
 
 <h2 class="header small-header">having access to books</h2>
 
-Over the years, due to travels and moves, I've let go of books that didn't mean much to me, some that were lost, some that I knew I wouldn't really want to read often. But it's been pretty hard to let go of books deliberately when I decided to minimize. There was a time a few years ago when I had thousands of e-books on my computer, but I still felt extremely vulnerable where my books were concerned, afraid to lose them, to lose access to books. Afraid in some way that if I lost access to those books I had read and loved, I would somehow cut off the book experiences I could have in the future. That I couldn't get those books again if I needed to, when I wanted them. I know if I experienced a delay in getting them, it would painfully trigger my sense of locked-in-ness, no-access-ness from before.
+Over the years, due to travels and moves, I've let go of books that didn't mean much to me, some that were lost, some that I knew I wouldn't really want to read often. But it's been pretty hard to let go of books deliberately when I decided to minimize. There was a time a few years ago when I had thousands of e-books on my computer, but I still felt extremely vulnerable where my books were concerned, afraid to lose them, to lose access to books. It wasn't about how many I had. It was about filling a hole that would never be filled.  
 
-When I decided to downsize, I knew what I wanted to get to: I want to be ok with not owning. But I want to feel like I had access even if the books I wanted in the moment weren't immediately available. I wanted to feel the security of limitless access.
+When I decided to downsize, I knew what I wanted to get to: I want to be ok with not owning. But I want to feel like I had access even if the books I wanted in the moment weren't immediately available. I was afraid that I wouldn't be able to get those books again if I needed to, when I wanted them.
 
 <h2 class="header small-header">Redefining access</h2>
 
-Access to me meant being able to get an item whenever I want, and to hold on to it for however long I want.
+Access to me meant being able to get an item whenever I want, and to hold on to it for however long I want. As a minimalist, that definition doesn't sit well with me anymore.
 
 There was something I had to learn and make that knowing a part of me, before I could let go of my books--and in fact my things in general. That was that **I can only trust my future self to get what I need, when I need it.**
 
@@ -33,4 +33,4 @@ I can only do what I can with what I have, today. I can't foresee the future and
 
 I can only do what I can with what I have today, but I can do a lot. I must trust that my future self will only be more capable and more resourceful.
 
-My job is not to give the me of tomorrow everything she might need. My job is to take away from tomorrow's plate everything unnecessary, so that tomorrow I wake up to an easier life where I have the clarity and liquidated time, space, and money to make better choices.
+My job is not to give the me of tomorrow everything she might need. My job is to take away from tomorrow's plate everything unnecessary, so that every day I wake up to an easier life where I have the clarity, time, space, and money to make better choices.
