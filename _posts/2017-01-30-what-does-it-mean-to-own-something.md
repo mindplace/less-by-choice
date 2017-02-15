@@ -4,7 +4,7 @@ title: "Hoarding access"
 description: "Holding on to things for fear of not having what you need, when you need it."
 tags: [clarity, books]
 image:
-takeaway: ["What are the things you are afraid to let go of because you are afraid of losing access?"]
+takeaway: [""]
 published: false
 ---
 
