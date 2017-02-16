@@ -30,3 +30,7 @@ kramdown:
 
 # Adding static pages through `_static/` folder
 include: ['_static']
+
+# Adding an xml sitemap
+gems:
+  - jekyll-sitemap
