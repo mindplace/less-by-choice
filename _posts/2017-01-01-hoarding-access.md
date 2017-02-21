@@ -25,7 +25,7 @@ I want to be ok with not owning, not having certainty if I get that by owning th
 
 <h2 class="header small-header">Redefining access</h2>
 
-It's true, there's a great chance that that will happen. But I don't think it's really the point to never have unmet desires. Access to me has always been about being able to get an item whenever I want, and to hold on to it for however long I want. But I don't want to own things because they make me feel less afraid for the future.
+It's true, there's a great chance that that will happen. But I don't think it's really the point to never have unmet desires. Access to me has always been about being able to get an item whenever I want, and to hold on to it for however long I want. But I don't want to own things only because they make me feel less afraid for the future.
 
 If I'm going to not let that rule my life, I have to trust my future self to get what I need, when I need it.
 
@@ -35,7 +35,7 @@ I can only do what I can with what I have, today. I can't foresee the future and
 
 <h2 class="header small-header">after the purge</h2>
 
-Right now I own 13 physical books. I also have about 300 digital books, down from 10k+ that I used to have.
+Right now I own 13 physical books. I also have about 300 digital books, down from 10k+ that I used to have. These days I delete books that I finish reading or those that I don't end up liking when I start them.
 
 These collections are temporary. At some point I'll have finished reading some, I'll be tired of the others, or I'll discover that I no longer want or need the rest, and let them go.
 
