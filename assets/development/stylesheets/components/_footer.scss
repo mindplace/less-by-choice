@@ -5,7 +5,7 @@ html {
   min-height: 100%; }
 
 body {
-  margin-bottom: 200px;
+  margin-bottom: 210px !important;
 
   @media screen and (min-width: $on-laptop){
     margin-bottom: 170px !important;
@@ -19,7 +19,7 @@ body {
   width: 100%;
   background-color: white;
   border-top: 1px solid $base-grey;
-  height: 200px;
+  height: 210px;
 
   @media screen and (min-width: $on-laptop) {
     height: 170px;
