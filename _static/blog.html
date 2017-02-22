@@ -9,20 +9,19 @@ permalink: /blog/
 <div class="container">
   <div id="blog-page">
     <div class="section-box blog-form-box">
-      <h2 class="header medium-header">blog</h2>
-      {% include signup_mail_chimp_form.html %}
+      <h1 class="header medium-header">blog</h1>
     </div>
 
     <div class="item-list">
       {% for post in site.posts %}
 
         {% unless post.next %}
-          <h2 class="header medium-header dividing-month">{{ post.date | date: '%B %Y' }}</h2>
+          <h2 class="header small-header dividing-month">{{ post.date | date: '%B %Y' }}</h2>
         {% else %}
           {% capture year %}{{ post.date | date: '%Y %B' }}{% endcapture %}
           {% capture nyear %}{{ post.next.date | date: '%Y %B' }}{% endcapture %}
           {% if year != nyear %}
-            <h2 class="header medium-header dividing-month">{{ post.date | date: '%B %Y' }}</h2>
+            <h2 class="header small-header dividing-month">{{ post.date | date: '%B %Y' }}</h2>
           {% endif %}
         {% endunless %}
 

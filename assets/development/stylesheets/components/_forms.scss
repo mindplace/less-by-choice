@@ -29,8 +29,10 @@
 
 #blog-page {
   .blog-form-box {
-    margin: 10px 0 25px;
+    margin: 10px 0;
     padding: 20px 0;
+
+    h1 { margin-bottom: 0px; }
 
     #mc-embedded-subscribe-form {
       padding-top: 0; }
