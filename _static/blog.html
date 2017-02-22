@@ -8,13 +8,10 @@ permalink: /blog/
 
 <div class="container">
   <div id="blog-page">
-    <form action="{{ site.baseurl }}/search/" method="get" class="search-form">
-      <div class="form-group">
-        <input type="text" id="search-box" class="form-control" name="query" placeholder="Search for a post...">
-      </div>
-
-      <button type="submit" class="button button-primary">Search</button>
-    </form>
+    <div class="section-box blog-form-box">
+      <h2 class="header medium-header">blog</h2>
+      {% include signup_mail_chimp_form.html %}
+    </div>
 
     <div class="item-list">
       {% for post in site.posts %}
@@ -31,12 +28,16 @@ permalink: /blog/
 
         <div class="item-box">
           <h2 class="small-header item-header">
+            <span class="post-date post-description">{{ post.date | date: "%d %b" }}
+              <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
+            </span>
+
             <a class="header" href="{{ site.baseurl }}{{ post.url }}">
               {{ post.title }}
             </a>
           </h2>
 
-          {% if post.tags.size > 0 %}
+          <!-- {% if post.tags.size > 0 %}
             {% capture tags_content %}{% endcapture %}
             {% for post_tag in post.tags %}
               {% assign tag = site.data.tags[post_tag] %}
@@ -47,13 +48,13 @@ permalink: /blog/
             {% endfor %}
           {% else %}
             {% assign tags_content = '' %}
-          {% endif %}
+          {% endif %} -->
 
-          <div class="row">
+          <!-- <div class="row">
             <div class="post-date"><i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i></div>
             <div class="second-col description-text tag-link">{{ tags_content }}</div>
           </div>
-        </div>
+        </div> -->
       {% endfor %}
     </ul>
   </div>

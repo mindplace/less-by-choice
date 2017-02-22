@@ -28,10 +28,13 @@ $on-laptop:           800px;
 
 @import
   // Components & base structures
+  "components/footer",
+  "components/forms",
+  "components/navbar",
+  "components/normalize",
   "components/skeleton",
   "components/syntax-highlighting",
-  "components/navbar",
-  "components/footer",
+
 
   // Pages
   "pages/index",

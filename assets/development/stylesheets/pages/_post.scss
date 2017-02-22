@@ -12,9 +12,10 @@
       display: flex;
       justify-content: space-between;
 
+      .post-date { text-align: right; }
+
       .post-description {
         display: inline-block;
-        text-align: left;
         width: calc(100% - 80px);
         p { margin-bottom: 1.0rem; }
       }

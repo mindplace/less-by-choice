@@ -22,27 +22,8 @@ layout: default
       <h1 class="large-header">{{ page.title }}</h1>
 
       <div class="item-description">
-        <span class="post-left">about
-          <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
-        </span>
-
-        <span class="post-description">{{ post.description }}</span>
-      </div>
-
-      <div class="item-description">
-        <span class="post-left">dated
-          <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
-        </span>
-
-        <span class="post-date post-description">{{ post.date | date: "%d %B %Y" }}</span>
-      </div>
-
-      <div class="item-description">
-        <span class="post-left">tags
-          <i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i>
-        </span>
-
-        <span class="post-tags post-description">{{ tags_content }}</span>
+        <div class="post-tags post-description">{{ tags_content }}</div>
+        <div class="post-date post-description">{{ post.date | date: "%d %B %Y" }}</div>
       </div>
     </div>
 

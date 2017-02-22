@@ -7,8 +7,11 @@
 
    .index-section {
      min-height: 20vh;
-     margin-bottom: 3rem;
-     padding-top: 40vh; }
+     margin-bottom: 3rem; }
+
+   .index-section:last-child {
+     padding-bottom: 30vh;
+   }
 
    .section-box {
      h2 { margin-bottom: 0; }
@@ -25,10 +28,10 @@
 
    #about { padding-top: 20vh; }
 
-   #three-recent-posts { padding-bottom: 30vh; }
-
    #main-index-header {
-     padding-bottom: 20vh;
+     padding-bottom: 40vh;
+     padding-top: 40vh;
+
      h1 {
        letter-spacing: 10px;
        font-weight: 100; }
