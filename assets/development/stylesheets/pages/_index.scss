@@ -10,7 +10,11 @@
      margin-bottom: 3rem; }
 
    .index-section:last-child {
-     padding-bottom: 30vh;
+     padding-bottom: 10vh;
+
+     @media screen and (max-width: $on-laptop) {
+       padding-bottom: 40vh;
+     }
    }
 
    .section-box {
