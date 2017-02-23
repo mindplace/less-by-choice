@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Possessions for Identity"
+title: "Possessions for identity"
 description: "Things you keep because they define who you want to be."
 tags: [downsizing, books]
 takeaway: ["What identities are you supporting artificially?"]
