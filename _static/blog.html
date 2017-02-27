@@ -35,27 +35,9 @@ permalink: /blog/
               {{ post.title }}
             </a>
           </h2>
+        </div>
 
-          <!-- {% if post.tags.size > 0 %}
-            {% capture tags_content %}{% endcapture %}
-            {% for post_tag in post.tags %}
-              {% assign tag = site.data.tags[post_tag] %}
-              {% if tag %}
-                {% capture tags_content_temp %}{{ tags_content }}<a href="{{ site.baseurl }}/{{ post_tag }}/">{{ tag.name }}</a>{% if forloop.last == false %}<span>, </span>{% endif %}{% endcapture %}
-                {% assign tags_content = tags_content_temp %}
-              {% endif %}
-            {% endfor %}
-          {% else %}
-            {% assign tags_content = '' %}
-          {% endif %} -->
-
-          <!-- <div class="row">
-            <div class="post-date"><i class="fa fa-angle-double-right date-caret" aria-hidden="true"></i></div>
-            <div class="second-col description-text tag-link">{{ tags_content }}</div>
-          </div>
-        </div> -->
       {% endfor %}
-    </ul>
+    </div>
   </div>
-
 </div>
