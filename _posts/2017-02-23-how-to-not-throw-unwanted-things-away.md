@@ -4,7 +4,7 @@ title: "How to not throw unwanted things away"
 description: "I don't want to waste good things either by throwing them away."
 tags: [clutter]
 takeaway: ["What can you do to get rid of unwanted items without being wasteful?"]
-permalink: /how-to-not-throw-unwanted-things-away
+permalink: /how-to-not-throw-away-unwanted-things
 published: false
 comments: true
 ---

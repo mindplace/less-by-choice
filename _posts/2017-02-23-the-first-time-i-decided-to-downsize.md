@@ -6,7 +6,7 @@ tags: [downsizing]
 takeaway: ["Is your stuff relevant to your life today?"]
 published: true
 comments: true
-permalink: /the-first-time-i-decided-to-downsize
+permalink: /first-time-i-decided-to-downsize
 ---
 
 I underwent a major process of clearing out and letting go a few months ago.

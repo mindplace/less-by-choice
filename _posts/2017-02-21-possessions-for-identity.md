@@ -5,7 +5,7 @@ description: "Things you keep because they define who you want to be."
 tags: [downsizing, books]
 takeaway: ["What identities are you supporting artificially?"]
 published: true
-permalink: /possessions-for-identity
+permalink: /possessions-identity
 comments: true
 ---
 
