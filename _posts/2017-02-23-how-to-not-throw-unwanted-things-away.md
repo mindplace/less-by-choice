@@ -6,6 +6,7 @@ tags: [clutter]
 takeaway: ["What can you do to get rid of unwanted items without being wasteful?"]
 permalink: /how-to-not-throw-unwanted-things-away
 published: false
+comments: true
 ---
 
 <h2 class="header small-header">Freecycle, Craigslist, and donations</h2>

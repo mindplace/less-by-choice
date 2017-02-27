@@ -6,6 +6,7 @@ tags: [travel, deliberate-choices]
 takeaway: ["What dreams do you have that would be made possible if you had less on your plate?"]
 permalink: /your-life-on-four-wheels
 published: true
+comments: true
 ---
 
 <h2 class="medium-header">I read an article about a woman from Europe who <a href="http://www.boredpanda.com/girl-restores-van-travels-with-dog-marina-piro/?utm_source=newsletter&utm_medium=link&utm_campaign=Newsletter" target="blank">converted her tiny car</a> into a home:</h2>

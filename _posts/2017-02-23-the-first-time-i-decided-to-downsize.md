@@ -5,6 +5,7 @@ description: ""
 tags: [downsizing]
 takeaway: ["Is your stuff relevant to your life today?"]
 published: true
+comments: true
 permalink: /the-first-time-i-decided-to-downsize
 ---
 

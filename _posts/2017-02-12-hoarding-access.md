@@ -5,6 +5,8 @@ description: "Holding on to things for fear of not having what you need, when yo
 tags: [clarity, books]
 takeaway: ["What are the things you are afraid to let go of because you are afraid of losing access?"]
 permalink: /hoarding-access
+comments: true
+published: true
 ---
 
 Books have been really hard for me to downsize. On one hand, access to information is very important to me. But books aren't necessarily how I meet that need. When I need to know something, I'll look it up online. Or if it's an extensive topic, I often find an appropriate text at my library.

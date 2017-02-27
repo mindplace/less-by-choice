@@ -6,6 +6,7 @@ tags: [downsizing, books]
 takeaway: ["What identities are you supporting artificially?"]
 published: true
 permalink: /possessions-for-identity
+comments: true
 ---
 
 When I was reviewing my things for purging, I realized that I had held on to some things because I wanted to continue to identify as a person who used or needed those things. For example, I held on to great academic texts because I wanted to identify as an academic.
