@@ -3,7 +3,7 @@ layout: post
 title: "It's a process"
 description: "...a process of altering your identity."
 tags: [clarity]
-takeaway: ["What identities do you hold on to?"]
+takeaway: ["What identities do you hold on to that outdated?"]
 published: true
 comments: true
 ---
@@ -18,7 +18,7 @@ But if I knew, before konmari-ing my stuff, that that would only be the first st
 
 Yes, downsizing is a process. But if you use this to give yourself permission to clear out only a little every day, you're not altering what really matters: your identity as someone who owns too much of the unnecessary. And your habits won't change: you'll continue to bring things into your life using the same reasoning as what led you to need to clear out in the first place.
 
-<h2 class="header small-header">Don't let go of your things, let go of outdated identities.</h1>
+<h2 class="header small-header">Don't let go of your things, let go of outdated identities.</h2>
 
 A minimalist mindset and an identity as a person living lightly: without these, you'll tidy and downsize and clear our every day and you will never be done. But try placing someone who is already a minimalist into a maximalist environment and see how fast they whittle it down.
 
